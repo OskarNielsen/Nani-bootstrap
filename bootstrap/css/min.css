@@ -1,0 +1,100 @@
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+	width: 200px;
+}
+
+.navbar-brand {
+	padding: 13px 15px;
+}
+#navid {
+	background-color: #CC6666;
+	font-size: 16px;
+}
+	
+#navid a {
+	color: black;
+}
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel {
+	margin-top: 60px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; 
+}
+
+/* --------------------------------------
+   Img
+   -------------------------------------- */
+	#img1 {
+		margin-top: 60px;
+
+	}
+
+	#logo1 {
+		width: 100px;
+		height: 57px;
+		margin-top: -20px;
+	}
+
+	/* --------------------------------------
+   Footer
+   -------------------------------------- */
+
+	footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+
+
+		/* --------------------------------------
+   layout
+   -------------------------------------- */
+	
+	#FAQ {
+		margin-top: 80px;
+	}
+	#lead {
+		font-size: 15px;
+		margin-left: none;
+	}
+	body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+	/*
+	body{
+  	background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/1_carousel-4.jpg");
+  	background-repeat:repeat;
+	}
+	*/
