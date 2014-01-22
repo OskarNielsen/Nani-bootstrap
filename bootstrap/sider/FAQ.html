@@ -2,6 +2,14 @@
 <html>
 	<head>
 
+			
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		
 		<link rel="stylesheet" type="text/css" href="../css/min.css">
@@ -23,7 +31,7 @@
 
 
 <div class="navbar navbar-fixed-top" id="navid1">
-	<div class="container">
+	<div class="container" id="navcontainer">
 		
 		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
 		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
@@ -45,7 +53,7 @@
 				</li>
 				
 				<li>
-					<a href="#"><strong>Nani AS</strong></a>
+					 <a href="#" id="Nanias"><strong>Nani AS</strong></a>
 					
 						<li>
 							<a href="sider/omos.html">Om os</a>
@@ -63,31 +71,29 @@
 				<li>
 					<a href="sider/FAQ.html">Webshop</a>
 				</li>
-			
+					
+				<br>
 
+				<li id="navdown">
+					<a href="sider/FAQ.html">hey</a>
+				</li>
+				<li id="navdown">
+					<a href="sider/FAQ.html">hey</a>
+				</li>	
+
+				<li id="navdown">
+					<a href="sider/FAQ.html">hey</a>
+				</li>
+					
+
+				
+	
+				
 				</li> <!-- end active -->
 			</ul> <!-- end nav navbar-nav -->
 
-			<ul class="nav navbar-nav" >
-				<li class="active">
-					
-				</li>
+
 				
-				<li>
-					<a href="#"><strong>Nani AS</strong></a>
-					
-						<li>
-							<a href="sider/omos.html">Om os</a>
-						</li>
-
-
-				<li>
-					<a href="sider/FAQ.html">Webshop</a>
-				</li>
-			
-
-				</li>
-			</ul>
 			
 			<form class="navbar-form pull-left" id="searchengine">
 				<!--  <input type="text" class="form-control" placeholder="Search this site..." id="searchInput"> -->
@@ -95,8 +101,15 @@
 				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
 			</form><!-- end navbar-form -->
 
+
+
+				
+
 			
 			<ul class="nav navbar-nav pull-right">
+
+			
+
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
 					
@@ -116,10 +129,21 @@
 						</li>
 					</ul>
 				</li>
+
+				<br>
+				<li>
+					<a href="sider/FAQ.html">hey</a>
+				</li>
+					
+				<li>
+					<a href="sider/FAQ.html">hey</a>
+				</li>	
+
 			</ul><!-- end nav pull-right -->
 		</div><!-- end nav-collapse -->
 	
 	</div><!-- end container -->
+	
 </div><!-- end navbar -->
 
 

@@ -18,14 +18,17 @@
 	font-size: 13px;
 	background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/1_carousel-4.jpg");
   	background-repeat:repeat;
-  	height: 120px;
-
 }
 	
 #navid a {
 	color: black;
+
 }
-   
+ 
+
+
+
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
@@ -50,6 +53,7 @@
    -------------------------------------- */
 	#img1 {
 		margin-top: 60px;
+		opacity: 0;
 
 	}
 
@@ -69,6 +73,17 @@
 	font-size: 11px;
 	padding: 20px;
 }
+
+		/* --------------------------------------
+   Global
+   -------------------------------------- */
+	#main {
+		background: none;
+	}
+
+
+
+
 
 
 		/* --------------------------------------
@@ -100,9 +115,58 @@ ul.unstyled {
 	padding: 0;
 }
 
+#Nanias {
+	font-size: 20px;
+}
+
+body {
+ background-image: url("file:////Users/OskarCharles/Desktop/bootstrap/images/hvidbaggrund/baggrund1-2.jpg");
+ background-size:cover;
+background-attachment:fixed;
+}
+
+#bigCallout {
+background-color: none;
+
+}
+
+#gennemsigtig {
+	background-color: none;
+	background: none;
+}
+
+.well {
+	background-color: none;
+}
+
+
+
+
+	/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
 	
-	/* #repeat{
-  	background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/1_carousel-4.jpg");
-  	background-repeat:repeat;
+
+}
+	
+	
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 768px) {
+	
+	
+
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#navcontainer {
+		height: 120px;
 	}
-	*/
+
+}
