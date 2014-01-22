@@ -13,6 +13,14 @@
 	background-color: #CC6666;
 	font-size: 16px;
 }
+#navid1 {
+	background-color: none;
+	font-size: 13px;
+	background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/1_carousel-4.jpg");
+  	background-repeat:repeat;
+  	height: 120px;
+
+}
 	
 #navid a {
 	color: black;
@@ -92,8 +100,8 @@ ul.unstyled {
 	padding: 0;
 }
 
-	/*
-	body{
+	
+	/* #repeat{
   	background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/1_carousel-4.jpg");
   	background-repeat:repeat;
 	}
