@@ -29,3 +29,14 @@ $(function() {
 	
 	
 });
+
+//Til FAQ slidedown spørgsmålene
+//Kan tilføjes .sibling("slidedown1").slideUp(500) for at de andrer svar slider up. 
+
+$(function() {
+	$(".questionherbs").click(function() {
+		$(this).next('.slidedown1').slideToggle(500);
+	});
+});
+
+

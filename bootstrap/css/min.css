@@ -5,23 +5,39 @@
 #searchInput {
 	width: 200px;
 }
+#searchengine {
+
+}
 
 .navbar-brand {
 	padding: 13px 15px;
 }
 #navid {
-	background-color: #CC6666;
+	background-color: none;
 	font-size: 16px;
+	background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/graa1.png");
+  	background-repeat:repeat;
+  	border-bottom: 1px solid black;
+  	padding: 6px 0 0 10px;
 }
 #navid1 {
 	background-color: none;
 	font-size: 13px;
-	background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/1_carousel-4.jpg");
+	background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/graa1.png");
   	background-repeat:repeat;
+  	border-bottom: 1px solid black;
+
+}	
+.questionherbs {
+	cursor: pointer;
 }
+.slidedown1 {
+	display: none;
 	
+}	
 #navid a {
 	color: black;
+
 
 }
  
@@ -52,8 +68,9 @@
    Img
    -------------------------------------- */
 	#img1 {
-		margin-top: 60px;
-		opacity: 0;
+		margin-top: 51px;
+		width: 100%;
+		
 
 	}
 
@@ -120,8 +137,7 @@ ul.unstyled {
 }
 
 body {
- background-image: url("file:////Users/OskarCharles/Desktop/bootstrap/images/hvidbaggrund/baggrund1-2.jpg");
- background-size:cover;
+ background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/graa1.png");
 background-attachment:fixed;
 }
 
@@ -137,6 +153,10 @@ background-color: none;
 
 .well {
 	background-color: none;
+}
+
+#h3faq {
+	margin-top: 60px;
 }
 
 

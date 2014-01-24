@@ -1,23 +1,23 @@
 <!DOCTYPE> 
 <html>
-	<head>
+<head>
 
-		<link href="../css/bootstrap.min.css" rel="stylesheet">
-		
-		<link rel="stylesheet" type="text/css" href="../css/min.css">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
 
-		<script type="text/javascript" src=""></script>
-		<link href="../css/bootstrap-glyphicons.css" rel="stylesheet">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>
-			Om Os
-		</title>
-	</head>
-	<body>
+<link rel="stylesheet" type="text/css" href="../css/min.css">
+
+<script type="text/javascript" src=""></script>
+<link href="../css/bootstrap-glyphicons.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+	Hey 
+</title>
+</head>
+<body>
 
 <!-- main container -->
-	<div class="container" id="main">
-		
+<div class="container" id="main">
+
 
 <!-- start navbar -->
 
@@ -36,53 +36,44 @@
 
 		
 	
-		<a class="navbar-brand" href="/"><img src="../images/oskar.jpg" id="logo1" alt="Your Logo"></a>
+		<a class="navbar-brand" href="/"> <span class="glyphicon glyphicon-home"></span></a>
 		
 		<div class="nav-collapse collapse navbar-responsive-collapse">
 			<ul class="nav navbar-nav">
 				<li class="active">
-					<a href="../index.html">Hjem</a>
 				</li>
 				
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Om os<strong class="caret"></strong></a>
+				<li>
+					<a href="../index.html"><strong>Nani AS</strong></a>
 					
-					<ul class="dropdown-menu">
 						<li>
-							<a href="#">Vores urter</a>
+							<a href="../sider/omos.html">Om os</a>
 						</li>
 						
-						<li>
-							<a href="#">Vores team</a>
-						</li>
+						
 						
 						<li>
-							<a href="#">Koncept</a>
+							<a href="../sider/FAQ.html">FAQ</a>
 						</li>
-						
-						<li class="divider"></li>
-						
-						<li class="dropdown-header">Hjælp</li>
-						
-						<li>
-							<a href="#">Søg arbejde</a>
-						</li>
-						
-						<li>
-							<a href="../sider/FAQ">FAQ</a>
-						</li>
-					</ul><!-- end dropdown-menu -->
+
+
+				<li>
+					<a href="../sider/butik.html">Butik</a>
+				</li>
+			
+
 				</li>
 			</ul>
 			
-			<form class="navbar-form pull-left">
-				<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+			<form class="navbar-form pull-right" id="searchengine">
+				 <input type="text" class="form-control" placeholder="Søg på denne side..." id="searchInput">
 				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
 			</form><!-- end navbar-form -->
+
 			
 			<ul class="nav navbar-nav pull-right">
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Min konto<strong class="caret"></strong></a>
 					
 					<ul class="dropdown-menu">
 						<li>
@@ -110,84 +101,252 @@
 	</div><!-- end container -->
 </div><!-- end navbar -->
 
+<!-- start carousel -->
 
+<div class="carousel slide" id="myCarousel">
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<img class="img-responsive"  src="../images/havet.jpg" alt="Responsive image">
+						<div class="carousel-caption">
+							<h4>Whole food</h4>
+							<p>Opdag, hvordan urter styrker dig!</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<img class="img-responsive"  src="../images/baade.jpg" alt="Responsive image">
 
-	
+						<div class="carousel-caption">
+							<h4>Se vores nye maskiner</h4>
+							<p>De producerer meget.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+				       <img class="img-responsive"  src="../images/rismarker.jpg" alt="Responsive image">
+
+						<div class="carousel-caption">
+							<h4>Gør det muligt</h4>
+							<p>Du kan lægge dit liv om.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
 				
-	
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div><!-- end myCarousel -->
+
+
+
+
+<!-- List items -->
+<div class="row" id="moreInfo">
+		<div class="col-sm-6">
+			<h3>dejligt oversigt</h3>
+			<div class="tabbable">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+					<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="tab1">
+						<h4><span class="glyphicon glyphicon-map-marker"></span> Her bor vi <small>Kom endelig forbi, hvis du er interesseret i, hvad vi går og laver</small></h4>
+						
+						<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x464b8b6ea812a1b5%3A0x213160caab57645e!2sSkolegade+59%2C+8600+Silkeborg!5e0!3m2!1sda!2sdk!4v1390254274321" width="200" height="300" frameborder="0" style="border:0"></iframe>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div><!-- end tab-pane -->
+					
+					<div class="tab-pane" id="tab2">
+						<h4>Venstre billede <small>Placehold</small></h4>
+						
+						<img src="http://placehold.it/140" class="thumbnail pull-left" alt="Placeholder image">
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						
+						<hr>
+						
+						<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> klik for mail </a>
+						
+						<div class="modal fade" id="myModal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button class="close" data-dismiss="modal">&times;</button>
+										
+										<h4 class="modal-title">Et modalt vindue</h4>
+									</div><!-- end modal-header -->
+									<div class="modal-body">
+										<h4>Text in a modal</h4>
+										
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										
+										<h4>Yep</h4>
+										<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would.">Don't click this button</a>
+										
+										<h4>Tooltips in a modal</h4>
+										<a href="" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>!
+										
+										<hr>
+										
+										<p><small class="text-muted">PS. This form doesn't do anything. Just a heads up.</small></p>
+										
+										<form class="form-horizontal">
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="inputName">Name</label>
+												<div class="col-lg-10">
+													<input class="form-control" id="inputName" placeholder="Name" type="text">
+												</div>
+											</div>
+											
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+												<div class="col-lg-10">
+													<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+												</div>
+											</div>
+											
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+												<div class="col-lg-10">
+													<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+													<button class="btn btn-success pull-right" type="submit">Send!</button>
+												</div>
+											</div>
+										</form>
+									</div><!-- end modal-body -->
+									
+									<div class="modal-footer">
+										<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+									</div><!-- end modal-footer -->
+								</div><!-- end modal-content -->
+							</div><!-- end modal-dialog -->
+						</div><!-- end myModal -->
+						
+					</div><!-- end tab-pane -->
+				</div><!-- end tab-content -->
+			</div><!-- end tabbable -->
+		</div><!-- end col-sm-6 -->
+		
+		<div class="col-sm-6">
+			<h3>Some Text Info</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			
+			<h4>A List Group</h4>
+			
+			<div class="list-group">
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Kale</h4>
+					<p class="list-group-item-text">Kale or borecole is a vegetable with green or purple leaves, in which the central leaves do not form a head.</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Carrots</h4>
+					<p class="list-group-item-text">The carrot is a root vegetable, usually orange in colour, though purple, red, white, and yellow varieties exist. It has a crisp texture when fresh.</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Steel-cut oats</h4>
+					<p class="list-group-item-text">Steel-cut oats are whole grain groats which have been cut into pieces. They are commonly used in Scotland and Ireland to make porridge.</p>
+				</a>
+			</div><!-- list-group -->
+			
+			<h5>A small heading</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div><!-- end col-sm-6 -->
+	</div><!-- end moreInfo -->
+
+
+
+
+<!--START FOOTER -->
 
 
 
 </div> <!-- end main-container -->
 
-<!--START FOOTER -->
 <footer>
 
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-2">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-2">
 
-				<h6>Copyright &copy; 2014 {name}</h6>
-	
-				</div> <!-- end col-sm-2 -->
-				
-				<div class="col-sm-4">
-					<h6>Om os</h6>
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, porro, recusandae similique impedit minima modi repellat at sequi omnis facilis? Explicabo aliquid deleniti delectus dolore recusandae et sit quae laborum.</p>
-					
-				</div> <!-- end col-sm-4 -->
+		<h6>Copyright &copy; 2014 {name}</h6>
 
-				<div class="col-sm-2">
-					<h6>Navigere</h6>
-					<ul class="unstyled">
-					<li><a href="#">Hjem</a></li>
-					<li><a href="#">Kontakt</a></li>
-					<li><a href="#">links</a></li>
-					<li><a href="#">Service</a></li>	
-					</ul>
-				</div> <!-- end col-sm-2 -->
-
-				<div class="col-sm-2">
-
-				<h6>Følg</h6>
-					<ul class="unstyled">
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Gooogle+</a></li>
-					<li><a href="#">Facebook</a></li>	
-					</ul>
-	
-				</div> <!-- end col-sm-2 -->
-
-				<div class="col-sm-2">
-
-				<h6>Kodet med <span class="glyphicon glyphicon-heart"></span>af Jehepe</h6>
-					<ul class="unstyled">
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Gooogle+</a></li>
-					<li><a href="#">Facebook</a></li>	
-					</ul>
-	
-				</div> <!-- end col-sm-2 -->
-			</div> <!-- end row -->
+		</div> <!-- end col-sm-2 -->
+		
+		<div class="col-sm-4">
+			<h6>Om os</h6>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, porro, recusandae similique impedit minima modi repellat at sequi omnis facilis? Explicabo aliquid deleniti delectus dolore recusandae et sit quae laborum.</p>
 			
- 		
- 	</footer>
-		</div> <!-- end container -->
+		</div> <!-- end col-sm-4 -->
 
+		<div class="col-sm-2">
+			<h6>Navigere</h6>
+			<ul class="unstyled">
+			<li><a href="#">Hjem</a></li>
+			<li><a href="#">Kontakt</a></li>
+			<li><a href="#">links</a></li>
+			<li><a href="#">Service</a></li>	
+			</ul>
+		</div> <!-- end col-sm-2 -->
 
-	</body>
+		<div class="col-sm-2">
 
+		<h6>Følg</h6>
+			<ul class="unstyled">
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Gooogle+</a></li>
+			<li><a href="#">Facebook</a></li>	
+			</ul>
 
+		</div> <!-- end col-sm-2 -->
 
-	<!-- All Javascript at the bottom of the page for faster page loading -->
-		
-	<!-- First try for the online version of jQuery-->
-	<script src="http://code.jquery.com/jquery.js"></script>
-		
-	<!-- Bootstrap JS -->
-	<script src="../js/bootstrap.min.js"></script>
+		<div class="col-sm-2">
+
+		<h6>Kodet med <span class="glyphicon glyphicon-heart"></span>af Jehepe</h6>
+			<ul class="unstyled">
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Gooogle+</a></li>
+			<li><a href="#">Facebook</a></li>	
+			</ul>
+
+		</div> <!-- end col-sm-2 -->
+	</div> <!-- end row -->
 	
-	<!-- Custom JS -->
-	<script src="../js/min.js"></script>
+	
+</footer>
+
+</div> <!-- end container -->
+
+
+
+</body>
+
+
+
+<!-- All Javascript at the bottom of the page for faster page loading -->
+
+<!-- First try for the online version of jQuery-->
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/min.js"></script>
 </html>
