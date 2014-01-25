@@ -34,7 +34,7 @@ $(function() {
 //Kan tilføjes .sibling("slidedown1").slideUp(500) for at de andrer svar slider up. 
 
 $(function() {
-	$(".questionherbs").click(function() {
+	$(".questionherbs").hover(function() {
 		$(this).next('.slidedown1').slideToggle(500);
 	});
 });
