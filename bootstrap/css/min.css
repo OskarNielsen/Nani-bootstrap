@@ -2,12 +2,24 @@
    Navbar
    -------------------------------------- */
 
+ @import url(http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister);
+
+
+
+ html {
+            overflow: scroll;
+        }
+
 #searchInput {
 	width: 200px;
 }
-#searchengine {
+#searchInput1 {
+	width: 200px;
+	display: inline-block;
+
 
 }
+
 
 .navbar-brand {
 	padding: 13px 15px;
@@ -41,8 +53,103 @@
 
 }
 
+#Nanias {
+	margin-left: -15px;
+}
+
+.NaniLogo {
+	
+	font-family: Love Ya Like A Sister ;
+	font-size: 20px;
+
+}
+
+
+
 
  
+/* --------------------------------------
+   Butik
+   -------------------------------------- */
+
+	
+	
+	/* for at undgå, at det yderste elemest ligger sig forkert i forhold til Nani*/
+
+
+
+
+
+
+
+	.btn-shop1:first-child {
+		margin-left: 0 !important;
+
+	}
+	.btn-shop1 {
+		margin-left: 3px !important;
+		margin: 0 auto;
+		background: none;
+	}
+
+	
+
+	.img1 {
+		width: 100%;
+		height: 50%;
+	}
+
+	#secondnav {
+		margin-bottom: 10px;
+		margin-top: 10px;
+		background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/brushed.png");
+		background-attachment:fixed;
+	}
+	#scroll {
+		
+width:300px;
+height:330px;
+overflow-y: scroll;
+
+
+
+}
+.scrollBox:hover {
+	color: grey;
+
+}
+
+/* --------------------------------------
+   Cart
+   -------------------------------------- */
+
+#myPanel {
+	margin: 2px;
+}
+.footer {
+	background: #480000 ;
+	color: #909090 ;
+}
+#footer {
+	background: #480000 ;
+	color: #909090 ;
+	text-align: center;
+}
+#myBreadcrumb {
+	font-size: 23;
+	color: red;
+	background: none ;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+	text-decoration: none;
+
+}
+
+
+
+
+	
 
 
 
@@ -51,8 +158,7 @@
    Carousel
    -------------------------------------- */
 
-   #myCarousel {
-	margin-top: 60px;
+ 
 }
 
 .carousel-caption {
@@ -69,10 +175,6 @@
 /* --------------------------------------
    Img
    -------------------------------------- */
-	#img1 {
-		margin-top: 51px;
-		width: 100%;
-		
 
 	}
 
@@ -110,7 +212,7 @@
    -------------------------------------- */
 	
 	#FAQ {
-		margin-top: 80px;
+		margin-top: 10px;
 	}
 	#lead {
 		font-size: 15px;
@@ -119,6 +221,9 @@
 	body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
+	padding-top: 53px; 
+	background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/graa1.png");
+	background-attachment:fixed;
 }
 
 .well .page-header {
@@ -138,10 +243,6 @@ ul.unstyled {
 	font-size: 20px;
 }
 
-body {
- background-image: url("file:///Users/OskarCharles/Desktop/bootstrap/images/graa1.png");
-background-attachment:fixed;
-}
 
 #bigCallout {
 background-color: none;
